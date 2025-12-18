@@ -32,6 +32,6 @@ export interface TableState {
   minRaise: number;
   lastBet: number;
   timer: number;
-  timer: number;
   gameFeed: string[];
+  isRunItTwice: boolean;
 }
